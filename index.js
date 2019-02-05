@@ -60,7 +60,7 @@ addToCart("pancakes");
 addToCart("pancakes");
 console.log(cart);
 console.log(removeFromCart("foo"));
-console.log(removeFromCart("bla"));
+console.log(removeFromCart("pancakes"));
 
 
 function placeOrder(cardNumber) {
