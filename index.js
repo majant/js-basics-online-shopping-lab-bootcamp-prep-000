@@ -61,11 +61,6 @@ function placeOrder(cardNumber) {
   if (isNaN(cardNumber)) {
     return "Sorry, we don't have a credit card on file for you.";
   } else {
-    return cardNumber;
+    
   }
 }
-
-console.log(placeOrder());
-
-console.log(placeOrder("fgsg"));
-console.log(placeOrder(Math.floor(Math.random()*100000)));
