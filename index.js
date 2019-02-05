@@ -64,3 +64,8 @@ function placeOrder(cardNumber) {
     return cardNumber;
   }
 }
+
+console.log(placeOrder());
+console.log(placeOrder(blg));
+console.log(placeOrder("fgsg"));
+console.log(placeOrder(Math.floor(Math.random()*100000)));
