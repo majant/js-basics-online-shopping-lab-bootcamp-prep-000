@@ -70,4 +70,5 @@ function placeOrder(cardNumber) {
 addToCart("A");
 addToCart("B");
 console.log(cart);
-console.log(placeOrder(135))
+console.log(placeOrder(135));
+console.log(cart);
