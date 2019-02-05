@@ -56,7 +56,8 @@ function removeFromCart(item) {
   return 'That item is not in your cart.';
 }
 
-
+addToCart("pancakes");
+addToCart("pancakes");
 console.log(cart);
 console.log(removeFromCart("foo"));
 console.log(removeFromCart("bla"));
