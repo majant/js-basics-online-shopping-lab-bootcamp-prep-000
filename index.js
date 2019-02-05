@@ -66,9 +66,3 @@ function placeOrder(cardNumber) {
     return `Your total cost is $${tot}, which will be charged to the card ${cardNumber}.`;
   }
 }
-
-addToCart("A");
-addToCart("B");
-console.log(cart);
-console.log(placeOrder(135));
-console.log(cart);
